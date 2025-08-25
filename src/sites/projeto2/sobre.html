@@ -16,8 +16,17 @@
 
         body {
             overflow-x: hidden;
-
+            height: auto;
         }
+
+        p{
+            text-align: center;
+        }
+
+        h2{
+            text-align: center;
+        }
+
     </style>
 </head>
 
@@ -48,11 +57,11 @@
                             <a class="nav-link" aria-current="page" href="sobre.html" style="color: #db295f;"><i class="fa-solid fa-circle-info fa-sm" style="color: #c92d5b;"></i> Sobre</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"aria-expanded="false" style="color: #db295f;"><i class="fa-solid fa-candy-cane fa-sm" style="color: #c92d5b;"></i> Cardapio</a>
+                            <a class="nav-link dropdown-toggle" href="cardapio.html" role="button" data-bs-toggle="dropdown"aria-expanded="false" style="color: #db295f;"><i class="fa-solid fa-candy-cane fa-sm" style="color: #c92d5b;"></i> Cardapio</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#" style="color:#a7697c;">Doces</a></li>
-                                <li><a class="dropdown-item" href="#" style="color:#a7697c;">Salgados</a></li>
-                                <li><a class="dropdown-item" href="#" style="color:#a7697c;">Bebidas</a></li>
+                                <li><a class="dropdown-item" href="cardapio.html#doces" style="color:#a7697c;">Doces</a></li>
+                                <li><a class="dropdown-item" href="cardapio.html#salgados" style="color:#a7697c;">Salgados</a></li>
+                                <li><a class="dropdown-item" href="cardapio.html#bebidas" style="color:#a7697c;">Bebidas</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -64,15 +73,18 @@
     <!-- CONTEÚDO COM AS SECTIONS DA PÁGINA -->
     <main class="flex-fill">
         <section>
-            <div class="row" style="height: 100vh;" ;>
-                <div class="col-12 col-md-6"
-                    style="background-image: url(https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.6435-9/73539187_1348655081976105_6058276014977449984_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=JpHjSV-QVx8Q7kNvwHoYqNQ&_nc_oc=AdkX6moVsRWt-lRdCl7BqXykKewdayuiCJejdx2J6ULs1GcYeIS4Oqk7a9cpYlh-Wk0&_nc_zt=23&_nc_ht=scontent.fcpq4-1.fna&_nc_gid=ZbbjloYjjdoLHF8rS75gzg&oh=00_AfVqPaKdGPMhk73vF8OiBSvl95mVeNFiU8XXTcQh6mi8LA&oe=68CEC883); background-repeat: no-repeat; background-size: cover;">
+            <div class="row">
+                <div class="col-6 col-md-6"
+                    style="background-image: url(./imagens/giralda.png); background-repeat: no-repeat; background-size: cover;">
                 </div>
-                <div class="col-12 col-md-6"
+                <div class="col-6 col-md-6"
                     style="background-color:#e9b6c5e3; display: flex; justify-content: center; align-items: center; flex-direction: column;">
-                    <h1 style="color: #ac2a45;">SOBRE NÓS</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <h1 style="color: #ac2a45; text-align: center;">SOBRE NÓS</h1>
 
-                    <p style="text-align: center;">A Giralda Doceira surgiu em 2014, originalmente com o nome de Giraffa
+                    <p >A Giralda Doceira surgiu em 2014, originalmente com o nome de Giraffa
                         Confetteria, <br>idealizada pelo casal Carol Prada e Angelo Minatel após uma temporada na Itália em
                         busca de experiências <br>culinárias. O projeto começou com um container de doces em Limeira (SP),
                         que rapidamente se destacou <br>pelo sucesso entre os clientes. Com o crescimento, a marca passou
@@ -90,15 +102,19 @@
                     <br>
                     <h2 style="color: #ac2a45;">Telefone</h2>
                     <p><i class="fa-solid fa-phone" style="color: #c92d5b;"></i> (19) 98237-1989</p>
+                    <br>
+                    <br>
                         
                 </div>
             </div>
         </section>
 
         <section>
-            <div style="height: 30vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #e9b6c5e3;">
-                <h2 style="color: #ac2a45;">Localização</h2>
-                <p><i class="fa-solid fa-location-dot" style="color: #c93050;"></i>Endereço: R. São João, 221 - Vila Sao Joao, Limeira - SP, 13480-740</p>
+            <div class="row" style="height: 40vh;">
+            <div class="col-12" style=" display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #e9b6c5e3;">
+                <h2 style="color: #ac2a45; text-align: center;">Localização</h2>
+                <p style="text-align: center;"><i class="fa-solid fa-location-dot" style="color: #c93050;"></i>Endereço: R. São João, 221 - Vila Sao Joao, Limeira - SP, 13480-740</p>
+            </div>
             </div>
 
             <div style="height: 70vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #f0d2dbe3;">
@@ -108,7 +124,7 @@
     </main>
 
     <!-- RODAPÉ -->
-    <footer class="footer mt-auto" style="background-color:#e4d5d9;">
+    <footer class="footer mt-auto" style="background-color:#e9b6c5e3;">
         <ul class="nav justify-content-center">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#" style="color: #db295f;"><i

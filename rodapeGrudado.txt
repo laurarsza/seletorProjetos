@@ -1,0 +1,13 @@
+Sticky Footer - Rodapé Grudado
+
+Container Geral (Pai) - class = "d-flex flex-column min-vh-100"
+
+main -  class =" flexfill "
+
+footer - class =" footer mt-auto"
+
+O mt-auto do footer só “empurra” para baixo se footer for filho direto de um contêiner flex em coluna.
+min-vh-100 → garante que o body tenha pelo menos a altura da tela.
+d-flex flex-column → organiza os filhos em coluna.
+mt-auto no footer → empurra o rodapé para o final.
+flex-fill no main → faz o main ocupar todo o espaço sobrando entre header e footer.

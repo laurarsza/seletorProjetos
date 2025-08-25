@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/42c04c0a9c.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100vw;
+            overflow-x: hidden;
+            background-color: #f0d2dbe3;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="height: 10vh;">
+            <div class="container-fluid">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="https://static.wixstatic.com/media/5456fc_c99affff8bb1407eb0426d5a704785f3~mv2.png"
+                                alt="Bootstrap" width="180" height="65">
+                        </a>
+                    </div>
+                </nav>
+                <a class="navbar-brand" href="projeto2.html" style="color: #db295f;"><i class="fa-solid fa-house fa-sm"
+                        style="color: #db2d5b;"></i> Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="sobre.html" style="color: #db295f;"><i
+                                    class="fa-solid fa-circle-info fa-sm" style="color: #c72d5b;"></i> Sobre</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="cardapio.html" false" style="color: #db295f;"><i
+                                    class="fa-solid fa-candy-cane fa-sm" style="color: #c92d5b;"></i> Cardapio</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#doces" style="color:#a7697c;">Doces</a></li>
+                                <li><a class="dropdown-item" href="#salgados" style="color:#a7697c;">Salgados</a></li>
+                                <li><a class="dropdown-item" href="#bebidas" style="color:#a7697c;">Bebidas</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- CONTEÚDO COM AS SECTIONS DA PÁGINA -->
+    <main class="flex-fill">
+
+        <div
+            style="width: auto; height: auto; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <br>
+            <br>
+            <section>
+                <div id="doces" style="width: 90vw; height: 100%;">
+                    <div class="row">
+                        <div class="col-12 col-md-6"
+                            style="background-color: #e9b6c5e3; height: 6vh; width: 100vw; font-family:Verdana, Geneva, Tahoma, sans-serif; display: flex; justify-content: center; align-items: center; font-size: 25px; color:#c72d5b;">
+                            DOCES
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="./imagens/bolao1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BOLO BRIGADEIRO</h5>
+                                    <p class="card-text" style="font-size: small;">Pão de ló de chocolate, camadas de brigadeiro cremoso, finalizado com brigadeiros. Peso Médio 2 kg.</p>
+                                    <p>R$178,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./imagens/bolao2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BOLO DOIS AMORES </h5>
+                                    <p class="card-text" style="font-size: small;">Pão de ló de chocolate, doce de leite cozido e brigadeiro cremoso. Coberto com muitos brigadeiros. Aprox. 1 kg</p>
+                                    <p>R$109,00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="./imagens/cookie1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIE NUTELLA</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de baunilha com gotas de
+                                        chocolate
+                                        e recheado com nutella pura. Peso médio 100g.</p>
+                                    <p>R$15,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./imagens/cookie2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIES & CREAM</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de baunilha, pedaços de Oreo e
+                                        recheio de Nutella branca.</p>
+                                    <p>R$16,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./imagens/cookie 3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIE BUENO</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de chocolate com recheio bueno.
+                                        Gostinho de kinder bueno.</p>
+                                    <p>R$16,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="./imagens/bolo1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIE NUTELLA</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de baunilha com gotas de
+                                        chocolate
+                                        e recheado com nutella pura. Peso médio 100g.</p>
+                                    <p>R$15,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./imagens/bolo2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIES & CREAM</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de baunilha, pedaços de Oreo e
+                                        recheio de Nutella branca.</p>
+                                    <p>R$16,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./imagens/bolo3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIE BUENO</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de chocolate com recheio bueno.
+                                        Gostinho de kinder bueno.</p>
+                                    <p>R$16,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="./imagens/brigadeiro1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIE NUTELLA</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de baunilha com gotas de
+                                        chocolate
+                                        e recheado com nutella pura. Peso médio 100g.</p>
+                                    <p>R$15,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./imagens/brigadeiro2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIES & CREAM</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de baunilha, pedaços de Oreo e
+                                        recheio de Nutella branca.</p>
+                                    <p>R$16,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./imagens/brigadeiro3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIE BUENO</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de chocolate com recheio bueno.
+                                        Gostinho de kinder bueno.</p>
+                                    <p>R$16,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="./imagens/bg1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIE NUTELLA</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de baunilha com gotas de
+                                        chocolate
+                                        e recheado com nutella pura. Peso médio 100g.</p>
+                                    <p>R$15,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./imagens/bg2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIES & CREAM</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de baunilha, pedaços de Oreo e
+                                        recheio de Nutella branca.</p>
+                                    <p>R$16,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./imagens/bg3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">COOKIE BUENO</h5>
+                                    <p class="card-text" style="font-size: small;">Massa de chocolate com recheio bueno.
+                                        Gostinho de kinder bueno.</p>
+                                    <p>R$16,00</p>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row" style="width: 100vw; height: auto;">
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <br>
+                                <div class="card">
+                                    <img src="./imagens/brownie1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">BROWNIE COM NUTELLA</h5>
+                                        <p class="card-text" style="font-size: small;">Brownie nutelludo com nutella
+                                            tradicional e nutella branca. Peso médio 110g</p>
+                                        <p>R$16,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <br>
+                                <div class="card">
+                                    <img src="./imagens/brownie3.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">PALHA ITALIANA PISTACHE</h5>
+                                        <p class="card-text" style="font-size: small;">Brigadeiro cremoso com pistache
+                                            puro, pedaços de biscoito granelas de pistache. Peso médio 120g.</p>
+                                        <p>R$16,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <br>
+                                <div class="card">
+                                    <img src="./imagens/torta1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">TORTA KINDER FATIA</h5>
+                                        <p class="card-text" style="font-size: small;">Feita
+                                            com pão de ló de chocolate, recheio de kinder bueno e coberta
+                                            com chocolate belga ao leite. Peso médio 170g</p>
+                                        <p>R$22,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <br>
+                                <div class="card">
+                                    <img src="./imagens/torta2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">TORTA HOLANDESA FATIA</h5>
+                                        <p class="card-text" style="font-size: small;"> Base de passatempo, creme
+                                            amanteigado leve,
+                                            coberto com chocolate ao leite e passatempo. Peso médio 140g</p>
+                                        <p>R$22,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <section>
+                <div id="salgados" style="width: 90vw; height: 100%;">
+                    <div class="row">
+                        <div class="col-12 col-md-6"
+                            style="background-color: #e9b6c5e3; height: 6vh; width: 100vw; font-family:Verdana, Geneva, Tahoma, sans-serif; display: flex; justify-content: center; align-items: center; font-size: 25px; color:#c72d5b;">
+                            SALGADOS
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="./imagens/card1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">WAFFLE DE PAO DE QUEIJO</h5>
+                                    <p class="card-text" style="font-size: small;">Massa artesanal feita com queijo
+                                        parmesão e meia cura,
+                                        finalizado na hora</p>
+                                    <p>R$9,50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./imagens/card2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">EMPADA DE CALABRESA COM REQUEIJAO</h5>
+                                    <p class="card-text" style="font-size: small;">Calabresa defumada com requeijão
+                                        cremoso.</p>
+                                    <p>R$15,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./imagens/card4.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">EMPADA DE PALMITO</h5>
+                                    <p class="card-text" style="font-size: small;">Palmito com requeijão cremoso</p>
+                                    <p>R$15,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./imagens/card3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">EMPADA DE COSTELA COM REQUEIJAO</h5>
+                                    <p class="card-text" style="font-size: small;">Filé de costela com requeijão
+                                        cremoso. </p>
+                                    <p>R$15,00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <section>
+                <div id="bebidas" style="width: 90vw; height: 100%;">
+                    <div class="row">
+                        <div class="col-12 col-md-6"
+                            style="background-color: #e9b6c5e3; height: 6vh; width: 100vw; font-family:Verdana, Geneva, Tahoma, sans-serif; display: flex; justify-content: center; align-items: center; font-size: 25px; color:#c72d5b;">
+                            BEBIDAS
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="./imagens/bebidas1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">AGUA MINERAL SEM GAS 500ML</h5>
+                                <p class="card-text" style="font-size: small;">Proporciona mais vitalidade e ajuda na
+                                    hidratação do seu corpo.
+                                    mantenha seu corpo hidratado com água mineral de alta qualidade!</p>
+                                <p>R$5,00</p>
+                            </div>
+                            <div class="card-text"></div>
+                        </div>
+                        <div class="card">
+                            <img src="./imagens/bebidas2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">AGUA MINERAL COM GAS 500ML</h5>
+                                <p class="card-text" style="font-size: small;">Água com Gás é a água mineral natural
+                                    gaseificada. Leve e saudável,
+                                    traz mais vitalidade e ajuda na hidratação do seu corpo. Contém sais minerais e é
+                                    obtida
+                                    diretamente de fontes naturais.</p>
+                                <p>R$6,00</p>
+                            </div>
+                            <div class="card-text"></div>
+                        </div>
+                        <div class="card">
+                            <img src="./imagens/bebidas3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">COCA COLA LATA</h5>
+                                <p class="card-text">R$7,00</p>
+                            </div>
+                            <div class="card-text"></div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+            </section>
+        </div>
+    </main>
+
+        <!-- RODAPÉ -->
+    <footer class="footer mt-auto" style="background-color: #e9b6c5e3;">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: #db295f;"><i
+                        class="fa-brands fa-square-instagram fa-xl" style="color: #db295f;"></i>@giralda.rioclaro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #db295f;"><i class="fa-brands fa-square-facebook fa-xl"
+                        style="color: #db295f;"></i>@giraldadoceria</a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="../../framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
