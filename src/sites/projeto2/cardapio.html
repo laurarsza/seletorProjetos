@@ -19,6 +19,22 @@
             overflow-x: hidden;
             background-color: #f0d2dbe3;
         }
+
+        .botao {
+            background-color: #c72d5b;
+            border: 0px;
+        }
+
+        .botao:hover {
+            background-color: #efaabe;
+            border: 0px;
+        }
+
+        .botao:focus {
+            background-color: #efaabe;
+            border: 0px;
+        }
+
     </style>
 
 </head>
@@ -30,14 +46,11 @@
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="height: 10vh;">
             <div class="container-fluid">
-                <nav class="navbar bg-body-tertiary">
-                    <div class="container">
-                        <a class="navbar-brand" href="#">
-                            <img src="https://static.wixstatic.com/media/5456fc_c99affff8bb1407eb0426d5a704785f3~mv2.png"
-                                alt="Bootstrap" width="180" height="65">
-                        </a>
-                    </div>
-                </nav>
+                <a class="navbar-brand" href="#">
+                    <img src="https://static.wixstatic.com/media/5456fc_c99affff8bb1407eb0426d5a704785f3~mv2.png" alt="Logo" width="150" height="62" class="d-inline-block align-text-top">
+                
+                  </a>
+             
                 <a class="navbar-brand" href="projeto2.html" style="color: #db295f;"><i class="fa-solid fa-house fa-sm"
                         style="color: #db2d5b;"></i> Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -51,12 +64,16 @@
                                     class="fa-solid fa-circle-info fa-sm" style="color: #c72d5b;"></i> Sobre</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="cardapio.html" false" style="color: #db295f;"><i
+                            <a class="nav-link dropdown-toggle" href="cardapio.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color: #db295f;"><i
                                     class="fa-solid fa-candy-cane fa-sm" style="color: #c92d5b;"></i> Cardapio</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#doces" style="color:#a7697c;">Doces</a></li>
-                                <li><a class="dropdown-item" href="#salgados" style="color:#a7697c;">Salgados</a></li>
-                                <li><a class="dropdown-item" href="#bebidas" style="color:#a7697c;">Bebidas</a></li>
+                                <li><a class="dropdown-item" href="cardapio.html#doces" style="color:#a7697c;">Doces</a>
+                                </li>
+                                <li><a class="dropdown-item" href="cardapio.html#salgados"
+                                        style="color:#a7697c;">Salgados</a></li>
+                                <li><a class="dropdown-item" href="cardapio.html#bebidas"
+                                        style="color:#a7697c;">Bebidas</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -91,6 +108,8 @@
                                     <h5 class="card-title">BOLO BRIGADEIRO</h5>
                                     <p class="card-text" style="font-size: small;">Pão de ló de chocolate, camadas de brigadeiro cremoso, finalizado com brigadeiros. Peso Médio 2 kg.</p>
                                     <p>R$178,00</p>
+                                    <a href="./Pbolo1.html" class="btn btn-primary botao"
+                                        tabindex="-1" role="button" aria-disabled="true">Peça aqui</a>
                                 </div>
                             </div>
                         </div>
@@ -101,6 +120,8 @@
                                     <h5 class="card-title">BOLO DOIS AMORES </h5>
                                     <p class="card-text" style="font-size: small;">Pão de ló de chocolate, doce de leite cozido e brigadeiro cremoso. Coberto com muitos brigadeiros. Aprox. 1 kg</p>
                                     <p>R$109,00</p>
+                                    <a href="./Pbolo2.html" class="btn btn-primary botao"
+                                        tabindex="-1" role="button" aria-disabled="true">Peça aqui</a>
                                 </div>
                             </div>
                         </div>
@@ -143,10 +164,8 @@
                             <div class="card">
                                 <img src="./imagens/bolo1.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">COOKIE NUTELLA</h5>
-                                    <p class="card-text" style="font-size: small;">Massa de baunilha com gotas de
-                                        chocolate
-                                        e recheado com nutella pura. Peso médio 100g.</p>
+                                    <h5 class="card-title">POTE BOMBOM DE UVA</h5>
+                                    <p class="card-text" style="font-size: small;"> Brigadeiro branco, uva verde e massa de chocolate branco. Peso médio 160g.. Peso médio 200g.</p>
                                     <p>R$15,00</p>
                                     <p class="card-text"></p>
                                 </div>
@@ -154,20 +173,18 @@
                             <div class="card">
                                 <img src="./imagens/bolo2.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">COOKIES & CREAM</h5>
-                                    <p class="card-text" style="font-size: small;">Massa de baunilha, pedaços de Oreo e
-                                        recheio de Nutella branca.</p>
-                                    <p>R$16,00</p>
+                                    <h5 class="card-title">POTE NINHO E NUTELLA</h5>
+                                    <p class="card-text" style="font-size: small;">Camadas de creme de Ninho e Nutella intercalados com massa de cacau molhadinha. Peso médio 200g</p>
+                                    <p>R$22,00</p>
                                     <p class="card-text"></p>
                                 </div>
                             </div>
                             <div class="card">
                                 <img src="./imagens/bolo3.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">COOKIE BUENO</h5>
-                                    <p class="card-text" style="font-size: small;">Massa de chocolate com recheio bueno.
-                                        Gostinho de kinder bueno.</p>
-                                    <p>R$16,00</p>
+                                    <h5 class="card-title">POTE DOCE DE LEITE COM BRIGADEIRO</h5>
+                                    <p class="card-text" style="font-size: small;">Brigadeiro cremoso, creme de doce de leite e massa de cacau. Peso médio 200g.</p>
+                                    <p>R$22,00</p>
                                     <p class="card-text"></p>
                                 </div>
                             </div>
@@ -178,31 +195,28 @@
                             <div class="card">
                                 <img src="./imagens/brigadeiro1.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">COOKIE NUTELLA</h5>
-                                    <p class="card-text" style="font-size: small;">Massa de baunilha com gotas de
-                                        chocolate
-                                        e recheado com nutella pura. Peso médio 100g.</p>
-                                    <p>R$15,00</p>
+                                    <h5 class="card-title">BRIGADEIRO UNITARIO DARK</h5>
+                                    <p class="card-text" style="font-size: small;">Brigadeiro 70% cacau, coberto com chocolate ao leite e cacau em pó.</p>
+                                    <p>R$5,00</p>
                                     <p class="card-text"></p>
                                 </div>
                             </div>
                             <div class="card">
                                 <img src="./imagens/brigadeiro2.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">COOKIES & CREAM</h5>
-                                    <p class="card-text" style="font-size: small;">Massa de baunilha, pedaços de Oreo e
-                                        recheio de Nutella branca.</p>
-                                    <p>R$16,00</p>
+                                    <h5 class="card-title">BRIGADEIRO UNITARIO PISTACHE</h5>
+                                    <p class="card-text" style="font-size: small;">Brigadeiro de pistache coberto com pistache.</p>
+                                    <p>R$5,00</p>
                                     <p class="card-text"></p>
                                 </div>
                             </div>
                             <div class="card">
                                 <img src="./imagens/brigadeiro3.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">COOKIE BUENO</h5>
-                                    <p class="card-text" style="font-size: small;">Massa de chocolate com recheio bueno.
-                                        Gostinho de kinder bueno.</p>
-                                    <p>R$16,00</p>
+                                    <h5 class="card-title">BRIGADEIRO UNITARIO tradicional</h5>
+                                    <p class="card-text" style="font-size: small;">Brigadeiro individual. 23g
+                                    </p>
+                                    <p>R$5,00</p>
                                     <p class="card-text"></p>
                                 </div>
                             </div>
@@ -212,31 +226,30 @@
                             <div class="card">
                                 <img src="./imagens/bg1.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">COOKIE NUTELLA</h5>
-                                    <p class="card-text" style="font-size: small;">Massa de baunilha com gotas de
-                                        chocolate
-                                        e recheado com nutella pura. Peso médio 100g.</p>
-                                    <p>R$15,00</p>
+                                    <h5 class="card-title">BG - CHOCOLATE COM COCO</h5>
+                                    <p class="card-text" style="font-size: small;">Pão de ló de chocolate, brigadeiro cremoso e creme de coco cremoso. Peso médio 120g.</p>
+                                    <p>R$14,00</p>
                                     <p class="card-text"></p>
                                 </div>
                             </div>
                             <div class="card">
                                 <img src="./imagens/bg2.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">COOKIES & CREAM</h5>
-                                    <p class="card-text" style="font-size: small;">Massa de baunilha, pedaços de Oreo e
-                                        recheio de Nutella branca.</p>
-                                    <p>R$16,00</p>
+                                    <h5 class="card-title">BG - ABACAXI</h5>
+                                    <p class="card-text" style="font-size: small;">Pão de ló branco, doce de leite cozido, creme branco com abacaxi. Passado no coco queimado. Peso médio 120g
+
+                                    </p>
+                                    <p>R$14,00</p>
                                     <p class="card-text"></p>
                                 </div>
                             </div>
                             <div class="card">
                                 <img src="./imagens/bg3.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">COOKIE BUENO</h5>
-                                    <p class="card-text" style="font-size: small;">Massa de chocolate com recheio bueno.
-                                        Gostinho de kinder bueno.</p>
-                                    <p>R$16,00</p>
+                                    <h5 class="card-title">BG - AMEIXA COM DOCE DE LEITE</h5>
+                                    <p class="card-text" style="font-size: small;">
+                                        Pão de ló branco, doce de leite, creme de ameixa e coco. Peso médio 120g</p>
+                                    <p>R$14,00</p>
                                     <p class="card-text"></p>
                                 </div>
                             </div>
@@ -320,6 +333,8 @@
                                         parmesão e meia cura,
                                         finalizado na hora</p>
                                     <p>R$9,50</p>
+                                    <a href="./Psalgado1.html" class="btn btn-primary botao"
+                                        tabindex="-1" role="button" aria-disabled="true">Peça aqui</a>
                                 </div>
                             </div>
                         </div>
@@ -331,6 +346,8 @@
                                     <p class="card-text" style="font-size: small;">Calabresa defumada com requeijão
                                         cremoso.</p>
                                     <p>R$15,00</p>
+                                    <a href="./Psalgado2.html" class="btn btn-primary botao"
+                                        tabindex="-1" role="button" aria-disabled="true">Peça aqui</a>
                                 </div>
                             </div>
                         </div>
@@ -341,6 +358,8 @@
                                     <h5 class="card-title">EMPADA DE PALMITO</h5>
                                     <p class="card-text" style="font-size: small;">Palmito com requeijão cremoso</p>
                                     <p>R$15,00</p>
+                                    <a href="./Psalgado3.html" class="btn btn-primary botao"
+                                        tabindex="-1" role="button" aria-disabled="true">Peça aqui</a>
                                 </div>
                             </div>
                         </div>
@@ -352,6 +371,8 @@
                                     <p class="card-text" style="font-size: small;">Filé de costela com requeijão
                                         cremoso. </p>
                                     <p>R$15,00</p>
+                                    <a href="./Psalgado4.html" class="btn btn-primary botao"
+                                        tabindex="-1" role="button" aria-disabled="true">Peça aqui</a>
                                 </div>
                             </div>
                         </div>

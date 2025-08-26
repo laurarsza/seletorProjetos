@@ -16,23 +16,9 @@
 
         body {
             overflow-x: hidden;
-
+            background-color:#ebdde1;
         }
 
-        .botao {
-            background-color: #c72d5b;
-            border: 0px;
-        }
-
-        .botao:hover {
-            background-color: #efaabe;
-            border: 0px;
-        }
-
-        .botao:focus {
-            background-color: #efaabe;
-            border: 0px;
-        }
 
         .imagem img {
             max-width: 100%;
@@ -51,10 +37,11 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="height: 10vh;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="https://static.wixstatic.com/media/5456fc_c99affff8bb1407eb0426d5a704785f3~mv2.png" alt="Logo" width="150" height="62" class="d-inline-block align-text-top">
-                
-                  </a>
-             
+                    <img src="https://static.wixstatic.com/media/5456fc_c99affff8bb1407eb0426d5a704785f3~mv2.png"
+                        alt="Logo" width="150" height="62" class="d-inline-block align-text-top">
+
+                </a>
+
                 <a class="navbar-brand" href="projeto2.html" style="color: #db295f;"><i class="fa-solid fa-house fa-sm"
                         style="color: #db2d5b;"></i> Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -87,57 +74,56 @@
 
     </header>
 
-
     <!-- CONTEÚDO COM AS SECTIONS DA PÁGINA -->
     <main class="flex-fill">
+        <br>
+        <br>
+
 
         <section>
-
-            <div class="col-12"
-                style="height: 85.7vh;background-color: bisque; background-image: url(https://vertentes.arq.br/wp-content/uploads/2024/05/Giralda-46-Edit.jpg);">
-                <div
-                    style="background-color: #a7697ca9; width: 100%; height: 100%; display: flex; text-align: center; justify-content: center; align-items: center; flex-direction: column;">
-                    <h1 style=" color: aliceblue; background-color: #c72d5b;">ㅤGiraldaㅤ</h1>
-                    <p
-                        style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: larger; color:#c72d5b; background-color: #e4d5d9;">
-                        <b>ㅤProduzindo as gilícias mais amadas com muita doçura!ㅤ</b></p>
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://play-lh.googleusercontent.com/4D0yBUasvlRoOT5DabYYcnRe7PycNf6B-OPa6K5sCy1wgBNOIozzAcQDzBnGP6rUHA"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text"><a href="cardapio.html#doces" class="btn btn-primary botao"
-                                    tabindex="-1" role="button" aria-disabled="true">Experimente</a></p>
+            <div style="display: flex;justify-content: center;align-items: center;;">
+                
+                <div class="card" style="width: 60rem;">
+                    <img src="./imagens/card3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">EMPADA DE COSTELA COM REQUEIJAO</h5>
+                        <p class="card-text" style="font-size: small;">Descrição: Filé de costela com requeijão cremoso.</p>
+                            <p style="color: #c92d5b;">R$15,00</p>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                    style="height: 100px;"></textarea>
+                                <label for="floatingTextarea2"><i class="fa-solid fa-comments fa-sm"
+                                        style="color: #c92d5b;"></i> Adicione observações para o pedido</label>
+                            </div>
+                            <br>
+                                <a href="./pedido.html" class="btn btn-primary botao"
+                                    style="background-color: #c92d5b; border: 0px;">COMPRE AQUI</a>
                         </div>
                     </div>
-                    <br>
-                    <hr>
-                </div>
+
+
+    
+
+
             </div>
-
-
-
-
+         
+            <br><br><br>
         </section>
-
     </main>
 
-    <!-- RODAPÉ -->
-    <footer class="footer mt-auto" style="background-color:#e4d5d9;">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" style="color: #db295f;"><i
-                        class="fa-brands fa-square-instagram fa-xl" style="color: #db295f;"></i>@giralda.rioclaro</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" style="color: #db295f;"><i class="fa-brands fa-square-facebook fa-xl"
-                        style="color: #db295f;"></i>@giraldadoceria</a>
-            </li>
-        </ul>
-    </footer>
-
-
-
-
+        <!-- RODAPÉ -->
+        <footer class="footer mt-auto" style="background-color:#ebc1cc;">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #db295f;"><i
+                            class="fa-brands fa-square-instagram fa-xl" style="color: #db295f;"></i>@giralda.rioclaro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/giraldadoceira/#" style="color: #db295f;"><i class="fa-brands fa-square-facebook fa-xl"
+                            style="color: #db295f;"></i>@giraldadoceria</a>
+                </li>
+            </ul>
+        </footer>
     <script src="../../framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
